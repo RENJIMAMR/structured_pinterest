@@ -1,11 +1,14 @@
-// import 'dart:js_interop';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:structured_pinterest/utils/constants/color_constants.dart';
+import 'package:structured_pinterest/utils/constants/image_constatnts.dart';
+import 'package:structured_pinterest/view/bottom_nav_bar_screen/bottom_nav_bar_screen.dart';
+import 'package:structured_pinterest/view/dummydb.dart';
+import 'package:structured_pinterest/view/home_page/home_page.dart';
 
-
-class WelcomePage extends StatelessWidget {
-  const WelcomePage({super.key});
+class LoginPage extends StatelessWidget {
+  const LoginPage({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -15,266 +18,202 @@ class WelcomePage extends StatelessWidget {
     GlobalKey<FormState> passwordkey = GlobalKey<FormState>();
 
     return Scaffold(
-      backgroundColor: Colors.transparent,
-      body: Center(
+      appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: ColorConstants.BlackMain,
+        leading: Icon(
+          Icons.close,
+          color: ColorConstants.White_shade_7,
+          size: 30,
+        ),
+        title: Text(
+          'Log In',
+          style: TextStyle(
+              color: ColorConstants.WhiteMain,
+              fontSize: 20,
+              fontWeight: FontWeight.w900),
+        ),
+      ),
+      backgroundColor: ColorConstants.BlackMain,
+      body: Padding(
+        padding: const EdgeInsets.all(30),
         child: SingleChildScrollView(
-          child: Stack(
+          child: Column(
             children: [
               Container(
-                height: 1000,
+                height: 60,
+                // width: 400,
                 decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/image/pinterest.welcome.jpg'),
-                        fit: BoxFit.cover)),
-              ),
-              Positioned(
-                child: Stack(
-                  children: [
-                    Container(
-                      height: 1000,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                            begin: Alignment.topCenter,
-                            end: Alignment.bottomCenter,
-                            colors: <Color>[
-                              Colors.transparent,
-                              Colors.black,
-                              Colors.black,
-                            ]),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(
-                          top: 30, left: 40, right: 40, bottom: 10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          SizedBox(
-                            height: 300,
-                          ),
-                          CircleAvatar(
-                            radius: 50,
-                            backgroundImage:
-                                AssetImage('assets/image/logo.pinterset.jpg'),
-                          ),
-                          SizedBox(
-                            height: 15,
-                          ),
-                          Text(
-                            'Welcome to Pinterset',
-                            style: TextStyle(
-                                fontSize: 31,
-                                fontWeight: FontWeight.w900,
-                                color: Colors.white),
-                          ),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Form(
-                            key: emailkey,
-                            child: TextFormField(
-                              validator: (value) {
-                                if (value != null &&
-                                    value.isNotEmpty &&
-                                    (value.contains('@') ||
-                                        value.contains('.in'))) {
-                                  return null;
-                                } else {
-                                  return 'Enter a valid email';
-                                }
-                              },
-                              controller: emailcontroller,
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 20),
-                              decoration: InputDecoration(
-                                  focusedBorder: OutlineInputBorder(
-                                      borderRadius: BorderRadius.circular(25),
-                                      borderSide: BorderSide(
-                                          width: 3,
-                                          color: Color.fromARGB(
-                                              255, 231, 239, 244))),
-                                  border: OutlineInputBorder(
-                                    borderSide: BorderSide(
-                                        color: Colors.white.withOpacity(.7),
-                                        width: 5,
-                                        style: BorderStyle.solid),
-                                    gapPadding: 8,
-                                    borderRadius: BorderRadius.circular(25),
-                                  ),
-                                  hintText: 'Email address',
-                                  hintStyle: TextStyle(
-                                      color: Colors.white.withOpacity(.8),
-                                      fontSize: 20)),
-                            ),
-                          ),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          InkWell(
-                            onTap: () {
-                              if (emailkey.currentState!.validate()) {
-                                Navigator.pushAndRemoveUntil(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => LoginPage(),
-                                  ),
-                                  (route) => false,
-                                );
-                              } else {
-                                print('Invalid mail id');
-                              }
-                            },
-                            onDoubleTap: () {
-                              if (emailkey.currentState!.validate()) {
-                                Navigator.pushAndRemoveUntil(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => LoginPage(),
-                                  ),
-                                  (route) => false,
-                                );
-                              }
-                            },
-                            child: Container(
-                              padding: EdgeInsets.all(10),
-                              height: 60,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(30),
-                                color: Color.fromARGB(255, 253, 24, 20),
-                              ),
-                              child: Center(
-                                child: Text(
-                                  'Continue',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.w900),
-                                ),
-                              ),
-                            ),
-                          ),
-                          SizedBox(
-                            height: 20,
-                          ),
-                          Container(
-                            height: 60,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(60),
-                              color: Color.fromARGB(222, 114, 114, 114),
-                            ),
-                            child: Padding(
-                              padding: const EdgeInsets.all(10),
-                              child: Row(
-                                children: [
-                                  CircleAvatar(
-                                    radius: 20,
-                                    backgroundColor:
-                                        Color.fromARGB(222, 114, 114, 114)
-                                            .withOpacity(1),
-                                    backgroundImage: AssetImage(
-                                      'assets/image/google.3.png',
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 30,
-                                  ),
-                                  Text(
-                                    'Continue with Google  ',
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.w900),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ),
-                          SizedBox(
-                            height: 15,
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text(
-                                "By continuing,you agree to Pinterest's  ",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 12,
-                                ),
-                              ),
-                              Text(
-                                "Terms of  ",
-                                style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
-                                  fontSize: 12,
-                                ),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text(
-                                "Service",
-                                style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
-                                  fontSize: 12,
-                                ),
-                              ),
-                              Text(
-                                "and acknowledge that you've read our ",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 12,
-                                ),
-                              ),
-                              Text(
-                                "Privacy",
-                                style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
-                                  fontSize: 12,
-                                ),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text(
-                                "Policy",
-                                style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
-                                  fontSize: 12,
-                                ),
-                              ),
-                              Text(
-                                ".",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 14,
-                                ),
-                              ),
-                              Text(
-                                "Notice at collection",
-                                style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
-                                  fontSize: 12,
-                                ),
-                              ),
-                              Text(
-                                ".",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 12,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
+                  borderRadius: BorderRadius.circular(26),
+                  color: ColorConstants.grey_shaded_6,
                 ),
+                child: Padding(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 25, vertical: 8),
+                  child: Row(
+                    children: [
+                      CircleAvatar(
+                        radius: 20,
+                        backgroundColor: ColorConstants.TransparentMain,
+                        backgroundImage:
+                            AssetImage(ImageConstatnts.google_logo),
+                      ),
+                      SizedBox(
+                        width: 39,
+                      ),
+                      Center(
+                        child: Text(
+                          'Continue with Google',
+                          style: TextStyle(
+                              color: ColorConstants.WhiteMain,
+                              fontWeight: FontWeight.w700,
+                              fontSize: 20),
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Text(
+                'Or',
+                style: TextStyle(
+                    color: ColorConstants.WhiteMain,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 20),
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Form(
+                key: emailkey,
+                // child: InkWell(
+                //   onDoubleTap: () {
+                //     if (emailkey.currentState!.validate()) {
+                //       print('validated');
+                //     } else {
+                //       print('Failed to validate');
+                //     }
+                // },
+                child: TextFormField(
+                  style:
+                      TextStyle(color: ColorConstants.WhiteMain, fontSize: 25),
+                  validator: (value) {
+                    if (value != null &&
+                        value.isNotEmpty &&
+                        (value.contains('@') || value.contains('.in'))) {
+                      return null;
+                    } else {
+                      return "Enter a Valid Email Id";
+                    }
+                  },
+                  controller: emailcontroller,
+                  decoration: InputDecoration(
+                      hintText: 'Enter Email Address ',
+                      hintStyle: TextStyle(
+                          color: ColorConstants.Grey,
+                          fontSize: 20,
+                          fontWeight: FontWeight.w600),
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(19),
+                          borderSide: BorderSide(
+                            width: 3,
+                          ))),
+                ),
+                // ),
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Form(
+                  key: passwordkey,
+                  // child: InkWell(
+                  //     onDoubleTap: () {
+                  //       if (passwordkey.currentState!.validate()) {
+                  //         print("Validated");
+                  //       } else {
+                  //         print("Failed to Validate");
+                  //       }
+                  //     },
+                  child: TextFormField(
+                    style: TextStyle(
+                        color: ColorConstants.WhiteMain, fontSize: 25),
+                    obscureText: true,
+                    controller: passwordcontroller,
+                    validator: (value) {
+                      if (value != null &&
+                          value.isNotEmpty &&
+                          value.length >= 5 &&
+                          value.length <= 12) {
+                        return null;
+                      } else {
+                        return 'Enter a Valid Password';
+                      }
+                    },
+                    decoration: InputDecoration(
+                        hintText: 'Enter Password',
+                        hintStyle: TextStyle(
+                            color: ColorConstants.Grey,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w600),
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(20),
+                            borderSide: BorderSide(
+                              width: 3,
+                            ))),
+                  )),
+              // ),
+              SizedBox(
+                height: 20,
+              ),
+              ElevatedButton(
+                style: ButtonStyle(
+                    minimumSize: WidgetStatePropertyAll(Size(400, 60)),
+                    backgroundColor: WidgetStatePropertyAll(
+                        Color.fromARGB(255, 250, 21, 4))),
+                onPressed: () {
+                  if (emailkey.currentState!.validate() &&
+                      passwordkey.currentState!.validate()) {
+                    if (emailcontroller.text == storegmail) {
+                      Navigator.pushAndRemoveUntil(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => BottomNavBarScreen(),
+                        ),
+                        (route) => false,
+                      );
+                    } else {
+                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                          backgroundColor: ColorConstants.RedMain,
+                          content: Text(
+                            'Invalid Crdentials',
+                            style: TextStyle(
+                                color: ColorConstants.WhiteMain,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold),
+                          )));
+                    }
+                  }
+                },
+                child: Text(
+                  'Log In',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500,
+                      fontSize: 20),
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Text(
+                'Forgotten Password?',
+                style: TextStyle(
+                    color: ColorConstants.Grey,
+                    fontWeight: FontWeight.w700,
+                    fontSize: 20),
               ),
             ],
           ),

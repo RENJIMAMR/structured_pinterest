@@ -1,8 +1,8 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:pinterest_clone/view/login_page/login_page.dart';
+import 'package:structured_pinterest/utils/constants/color_constants.dart';
+import 'package:structured_pinterest/utils/constants/image_constatnts.dart';
+import 'package:structured_pinterest/view/dummydb.dart';
+import 'package:structured_pinterest/view/login_page/login_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -10,12 +10,11 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextEditingController emailcontroller = TextEditingController();
-    TextEditingController passwordcontroller = TextEditingController();
+
     GlobalKey<FormState> emailkey = GlobalKey<FormState>();
-    GlobalKey<FormState> passwordkey = GlobalKey<FormState>();
 
     return Scaffold(
-      backgroundColor: Colors.transparent,
+      backgroundColor: ColorConstants.TransparentMain,
       body: Center(
         child: SingleChildScrollView(
           child: Stack(
@@ -24,7 +23,7 @@ class WelcomePage extends StatelessWidget {
                 height: 1000,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/image/pinterest.welcome.jpg'),
+                        image: AssetImage(ImageConstatnts.pinterest_welcome),
                         fit: BoxFit.cover)),
               ),
               Positioned(
@@ -37,9 +36,9 @@ class WelcomePage extends StatelessWidget {
                             begin: Alignment.topCenter,
                             end: Alignment.bottomCenter,
                             colors: <Color>[
-                              Colors.transparent,
-                              Colors.black,
-                              Colors.black,
+                              ColorConstants.TransparentMain,
+                              ColorConstants.BlackMain,
+                              ColorConstants.BlackMain
                             ]),
                       ),
                     ),
@@ -55,7 +54,7 @@ class WelcomePage extends StatelessWidget {
                           CircleAvatar(
                             radius: 50,
                             backgroundImage:
-                                AssetImage('assets/image/logo.pinterset.jpg'),
+                                AssetImage(ImageConstatnts.pinterest_logo),
                           ),
                           SizedBox(
                             height: 15,
@@ -65,7 +64,7 @@ class WelcomePage extends StatelessWidget {
                             style: TextStyle(
                                 fontSize: 31,
                                 fontWeight: FontWeight.w900,
-                                color: Colors.white),
+                                color: ColorConstants.WhiteMain),
                           ),
                           SizedBox(
                             height: 10,
@@ -84,26 +83,26 @@ class WelcomePage extends StatelessWidget {
                                 }
                               },
                               controller: emailcontroller,
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 20),
+                              style: TextStyle(
+                                  color: ColorConstants.WhiteMain,
+                                  fontSize: 20),
                               decoration: InputDecoration(
                                   focusedBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(25),
                                       borderSide: BorderSide(
                                           width: 3,
-                                          color: Color.fromARGB(
-                                              255, 231, 239, 244))),
+                                          color: ColorConstants.white_shade)),
                                   border: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                        color: Colors.white.withOpacity(.7),
+                                        color: ColorConstants.White_shade_7,
                                         width: 5,
                                         style: BorderStyle.solid),
                                     gapPadding: 8,
                                     borderRadius: BorderRadius.circular(25),
                                   ),
-                                  hintText: 'Email address',
+                                  hintText: 'Email Address',
                                   hintStyle: TextStyle(
-                                      color: Colors.white.withOpacity(.8),
+                                      color: ColorConstants.White_shade_8,
                                       fontSize: 20)),
                             ),
                           ),
@@ -113,6 +112,7 @@ class WelcomePage extends StatelessWidget {
                           InkWell(
                             onTap: () {
                               if (emailkey.currentState!.validate()) {
+                                storegmail = emailcontroller.text;
                                 Navigator.pushAndRemoveUntil(
                                   context,
                                   MaterialPageRoute(
@@ -126,6 +126,7 @@ class WelcomePage extends StatelessWidget {
                             },
                             onDoubleTap: () {
                               if (emailkey.currentState!.validate()) {
+                                storegmail = emailcontroller.text;
                                 Navigator.pushAndRemoveUntil(
                                   context,
                                   MaterialPageRoute(
@@ -140,13 +141,13 @@ class WelcomePage extends StatelessWidget {
                               height: 60,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(30),
-                                color: Color.fromARGB(255, 253, 24, 20),
+                                color: ColorConstants.RedMain,
                               ),
                               child: Center(
                                 child: Text(
                                   'Continue',
                                   style: TextStyle(
-                                      color: Colors.white,
+                                      color: ColorConstants.WhiteMain,
                                       fontSize: 18,
                                       fontWeight: FontWeight.w900),
                                 ),
@@ -160,7 +161,7 @@ class WelcomePage extends StatelessWidget {
                             height: 60,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(60),
-                              color: Color.fromARGB(222, 114, 114, 114),
+                              color: ColorConstants.grey_shaded_1,
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(10),
@@ -169,10 +170,9 @@ class WelcomePage extends StatelessWidget {
                                   CircleAvatar(
                                     radius: 20,
                                     backgroundColor:
-                                        Color.fromARGB(222, 114, 114, 114)
-                                            .withOpacity(1),
+                                        ColorConstants.grey_shaded_1,
                                     backgroundImage: AssetImage(
-                                      'assets/image/google.3.png',
+                                      ImageConstatnts.google_logo,
                                     ),
                                   ),
                                   SizedBox(
@@ -181,7 +181,7 @@ class WelcomePage extends StatelessWidget {
                                   Text(
                                     'Continue with Google  ',
                                     style: TextStyle(
-                                        color: Colors.white,
+                                        color: ColorConstants.WhiteMain,
                                         fontSize: 18,
                                         fontWeight: FontWeight.w900),
                                   ),
@@ -198,14 +198,14 @@ class WelcomePage extends StatelessWidget {
                               Text(
                                 "By continuing,you agree to Pinterest's  ",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: ColorConstants.WhiteMain,
                                   fontSize: 12,
                                 ),
                               ),
                               Text(
                                 "Terms of  ",
                                 style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
+                                  color: ColorConstants.Blue,
                                   fontSize: 12,
                                 ),
                               ),
@@ -217,21 +217,21 @@ class WelcomePage extends StatelessWidget {
                               Text(
                                 "Service",
                                 style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
+                                  color: ColorConstants.Blue,
                                   fontSize: 12,
                                 ),
                               ),
                               Text(
                                 "and acknowledge that you've read our ",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: ColorConstants.WhiteMain,
                                   fontSize: 12,
                                 ),
                               ),
                               Text(
                                 "Privacy",
                                 style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
+                                  color: ColorConstants.Blue,
                                   fontSize: 12,
                                 ),
                               ),
@@ -243,28 +243,28 @@ class WelcomePage extends StatelessWidget {
                               Text(
                                 "Policy",
                                 style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
+                                  color: ColorConstants.Blue,
                                   fontSize: 12,
                                 ),
                               ),
                               Text(
                                 ".",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: ColorConstants.WhiteMain,
                                   fontSize: 14,
                                 ),
                               ),
                               Text(
                                 "Notice at collection",
                                 style: TextStyle(
-                                  color: Color.fromARGB(255, 41, 15, 236),
+                                  color: ColorConstants.Blue,
                                   fontSize: 12,
                                 ),
                               ),
                               Text(
                                 ".",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: ColorConstants.WhiteMain,
                                   fontSize: 12,
                                 ),
                               ),

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:structured_pinterest/view/login_page/login_page.dart';
 
-
-
+import 'package:structured_pinterest/view/welcome_page/welcome_page.dart';
 
 void main(List<String> args) {
   runApp(MyApp());

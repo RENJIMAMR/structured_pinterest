@@ -1,28 +1,39 @@
 class ImageConstatnts {
-  static List imageData = [
-     'assets/data_images/image.1.jpeg',
-      'assets/data_images/image.2.jpg',
-       'assets/data_images/image.3.jpeg',
-        'assets/data_images/image.4.jpeg',
-         'assets/data_images/image.5.jpeg',
-          'assets/data_images/image.6.jpeg',
-           'assets/data_images/image.7.jpeg',
-            'assets/data_images/image.8.jpeg',
-             'assets/data_images/image.9.jpeg',
-              'assets/data_images/image.10.jpeg',
-               'assets/data_images/image.11.jpeg',
-                'assets/data_images/image.12.jpeg',
-                 'assets/data_images/image.13.jpeg',
-                  'assets/data_images/image.14.jpeg',
-                   'assets/data_images/image.15.jpeg',
-                    'assets/data_images/image.16.jpeg',
-    
-    ];
-  
-}
-class ImageConstants1{
-  static String facebook_logo='assets/images/fb2.png';
-  static String google_logo='assets/images/google.3.png';
-  static String pinterest_logo='assets/images/logo.pinterest.jpg';
-   static String pinterest_welcome='assets/images/pinterest.welcome.jpg';
+  static String image_1 = 'assets/data_images/image.1.jpeg';
+  static String image_2 = 'assets/data_images/image.2.jpg';
+  static String image_3 = 'assets/data_images/image.3.jpeg';
+  static String image_4 = 'assets/data_images/image.4.jpeg';
+  static String image_5 = 'assets/data_images/image.5.jpeg';
+  static String image_6 = 'assets/data_images/image.6.jpeg';
+  static String image_7 = 'assets/data_images/image.7.jpeg';
+  static String image_8 = 'assets/data_images/image.8.jpeg';
+  static String image_9 = 'assets/data_images/image.9.jpeg';
+  static String image_10 = 'assets/data_images/image.10.jpeg';
+  static String image_11 = 'assets/data_images/image.11.jpeg';
+  static String image_12 = 'assets/data_images/image.12.jpeg';
+  static String image_13 = 'assets/data_images/image.13.jpeg';
+  static String image_14 = 'assets/data_images/image.14.jpeg';
+  static String image_15 = 'assets/data_images/image.15.jpeg';
+  static String image_16 = 'assets/data_images/image.16.jpeg';
+  static String profile_pic0 = 'assets/images/profile_pic0.jpeg';
+  static String profile_pic1 = 'assets/images/profile_pic1.jpeg';
+  static String profile_pic2 = 'assets/images/profile_pic2.jpeg';
+  static String profile_pic3 = 'assets/images/profile_pic3.jpeg';
+  static String profile_pic4 = 'assets/images/profile_pic4.jpeg';
+  static String profile_pic5 = 'assets/images/profile_pic5.jpeg';
+  static String profile_pic6 = 'assets/images/profile_pic6.jpeg';
+  static String profile_pic7 = 'assets/images/profile_pic7.jpeg';
+  static String profile_pic8 = 'assets/images/profile_pic8.jpeg';
+  static String profile_pic9 = 'assets/images/profile_pic9.jpeg';
+  static String profile_pic10 = 'assets/images/profile_pic10.jpeg';
+  static String profile_pic11 = 'assets/images/profile_pic11.jpeg';
+  static String profile_pic12 = 'assets/images/profile_pic12.jpeg';
+  static String profile_pic13 = 'assets/images/profile_pic13.jpeg';
+  static String profile_pic14 = 'assets/images/profile_pic14.jpeg';
+  static String profile_pic15 = 'assets/images/profile_pic15.jpeg';
+
+  static String facebook_logo = 'assets/images/fb2.png';
+  static String google_logo = 'assets/images/google.3.png';
+  static String pinterest_logo = 'assets/images/logo.pinterset.jpg';
+  static String pinterest_welcome = 'assets/images/pinterest.welcome.jpg';
 }
