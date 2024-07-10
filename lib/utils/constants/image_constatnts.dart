@@ -36,4 +36,10 @@ class ImageConstatnts {
   static String google_logo = 'assets/images/google.3.png';
   static String pinterest_logo = 'assets/images/logo.pinterset.jpg';
   static String pinterest_welcome = 'assets/images/pinterest.welcome.jpg';
+  static String Craft1 = 'assets/data_images/craft1.jpeg';
+  static String Craft2 = 'assets/data_images/craft2.jpeg';
+  static String Craft3 = 'assets/data_images/craft3.jpeg';
+  static String Craft4 = 'assets/data_images/craft4.jpeg';
+  static String Craft5 = 'assets/data_images/craft5.jpeg';
+  static String Craft6 = 'assets/data_images/craft6.jpeg';
 }

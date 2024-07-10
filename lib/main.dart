@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:structured_pinterest/view/chat_page/chat_page.dart';
+import 'package:structured_pinterest/view/search_page/search_page.dart';
 
 import 'package:structured_pinterest/view/welcome_page/welcome_page.dart';
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WelcomePage(),
+      home: ChatPage(),
     );
   }
 }
