@@ -15,7 +15,7 @@ class ColorConstants {
   static Color grey_shaded_3 =
       Color.fromARGB(255, 143, 151, 155).withOpacity(.3);
   static Color greyShade_8 = Colors.grey.shade800;
-
+  static Color yellowMain = Colors.amber;
   static Color Grey = Colors.grey;
   static Color white_shade = Color.fromARGB(255, 231, 239, 244);
 }

@@ -42,4 +42,5 @@ class ImageConstatnts {
   static String Craft4 = 'assets/data_images/craft4.jpeg';
   static String Craft5 = 'assets/data_images/craft5.jpeg';
   static String Craft6 = 'assets/data_images/craft6.jpeg';
+  static String r = 'assets/images/R2.png';
 }

@@ -15,6 +15,9 @@ class ChatPage extends StatelessWidget {
       child: Scaffold(
           body: Column(
         children: [
+          SizedBox(
+            height: 20,
+          ),
           TabBar(
               unselectedLabelColor: ColorConstants.Grey,
               labelColor: ColorConstants.BlackMain,
