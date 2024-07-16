@@ -273,14 +273,12 @@ class Dummydb {
   ];
   static List<Map> rowCardData = [
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/29/84/ca/2984ca0e033cc078f5bc10db21aba14c.jpg',
+      'imageurl': ImageConstatnts.Craft2,
       'title': 'Pins inspired by you',
       'week': '2w'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/f8/62/86/f862861164f60c6b95f7a7eea7a23807.jpg',
+      'imageurl': ImageConstatnts.Craft1,
       'title': 'your Home feed has new Pins',
       'week': '3w'
     },
@@ -288,100 +286,84 @@ class Dummydb {
   ];
   static List<Map> moreIdeasData = [
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/5e/f5/ca/5ef5cac972e41b61bd6f91c2c7b3e163.jpg',
+      'imageurl': ImageConstatnts.moreideas1,
       'title': 'Matching Tattoo for You',
-      'week': '1m'
+      'week': '1mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/12/62/47/1262472a2e645024889de4782c73988d.jpg',
+      'imageurl': ImageConstatnts.moreideas2,
       'title': 'Ideas for you',
-      'week': '2m'
+      'week': '2mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/85/7e/9f/857e9fb4769e2592201d23cd4de2a5eb.jpg',
+      'imageurl': ImageConstatnts.moreideas3,
       'title': 'Tattoo for you',
-      'week': '2m'
+      'week': '2mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/20/30/0c/20300c8935379df0596656b2edabd0b9.jpg',
+      'imageurl': ImageConstatnts.moreideas4,
       'title': 'Pins inspired by You',
-      'week': '3m'
+      'week': '3mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/a8/98/6c/a8986c0a91878be22e4ced6ee88bc679.jpg',
+      'imageurl': ImageConstatnts.moreideas5,
       'title': 'Tattoos and More',
-      'week': '3m'
+      'week': '3mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/e2/04/92/e20492e99abaf9ebacdb372aa1249e83.jpg',
+      'imageurl': ImageConstatnts.moreideas6,
       'title': 'Your Home feed has new pins',
-      'week': '3m'
+      'week': '3mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/12/b3/ce/12b3ce77007db3b0646d3e9b97908808.jpg',
+      'imageurl': ImageConstatnts.moreideas7,
       'title': 'Indian Outfit and more',
-      'week': '4m'
+      'week': '4mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/c8/b5/3b/c8b53bf213ddef6608194f569bd74010.jpg',
+      'imageurl': ImageConstatnts.moreideas8,
       'title': 'Here are 8 boards with ideas you might like',
-      'week': '4m'
+      'week': '4mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/8c/5a/61/8c5a61114185394242b491b7fac43225.jpg',
+      'imageurl': ImageConstatnts.moreideas9,
       'title': 'Pins inspired by You',
-      'week': '4m'
+      'week': '4mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/22/c4/6c/22c46cd0c043569ad40f6bae912058c4.jpg',
+      'imageurl': ImageConstatnts.moreideas10,
       'title': 'we think you might like these 14 ideas',
-      'week': '5m'
+      'week': '5mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/8d/38/4d/8d384da8cb16cbd571e53a5df20abef3.jpg',
+      'imageurl': ImageConstatnts.moreideas11,
       'title': 'Here are 10 boards with ideas you might like',
-      'week': '5m'
+      'week': '5mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/48/e8/e7/48e8e7b89f39f0348215401fef620989.jpg',
+      'imageurl': ImageConstatnts.moreideas12,
       'title': 'we think you might likeb these 18 ideas',
-      'week': '5m'
+      'week': '5mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/ba/a6/c5/baa6c55f787618b18c087a1d85da0444.jpg',
+      'imageurl': ImageConstatnts.moreideas13,
       'title': 'Dress and more',
-      'week': '5m'
+      'week': '5mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/c6/13/80/c613804c01a9b0e1e8e96cb9f9fe8860.jpg',
+      'imageurl': ImageConstatnts.moreideas14,
       'title': 'Your Home feed has new pins',
-      'week': '6m'
+      'week': '6mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/37/7e/42/377e42eb4342f5fba3cf51f788f551f5.jpg',
+      'imageurl': ImageConstatnts.moreideas15,
       'title': 'Tattoos and More',
-      'week': '6m'
+      'week': '6mo'
     },
     {
-      'imageurl':
-          'https://i.pinimg.com/474x/5e/da/c0/5edac04655af571e96c39822f2115b2d.jpg',
+      'imageurl': ImageConstatnts.moreideas16,
       'title': 'Pins inspired by You',
-      'week': '6m'
+      'week': '6mo'
     },
   ];
 }

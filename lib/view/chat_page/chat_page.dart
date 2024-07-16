@@ -19,7 +19,7 @@ class ChatPage extends StatelessWidget {
             height: 20,
           ),
           TabBar(
-              unselectedLabelColor: ColorConstants.Grey,
+              unselectedLabelColor: ColorConstants.BlackMain,
               labelColor: ColorConstants.BlackMain,
               indicatorColor: ColorConstants.BlackMain,
               indicatorSize: TabBarIndicatorSize.label,

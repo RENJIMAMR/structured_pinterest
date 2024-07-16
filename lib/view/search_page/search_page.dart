@@ -1,6 +1,3 @@
-import 'dart:math';
-import 'dart:ui_web';
-
 import 'package:flutter/material.dart';
 import 'package:structured_pinterest/utils/constants/color_constants.dart';
 import 'package:structured_pinterest/utils/constants/image_constatnts.dart';

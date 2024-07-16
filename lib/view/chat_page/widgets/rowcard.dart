@@ -16,12 +16,14 @@ class Rowcard extends StatelessWidget {
       child: Row(
         children: [
           ClipRRect(
-              borderRadius: BorderRadius.circular(6),
-              child: Image.network(
-                imageurl,
-                height: 40,
-                width: 30,
-              )),
+            borderRadius: BorderRadius.circular(6),
+            child: Image.asset(
+              imageurl,
+              height: 60,
+              width: 50,
+              fit: BoxFit.cover,
+            ),
+          ),
           SizedBox(
             width: 10,
           ),
@@ -34,7 +36,7 @@ class Rowcard extends StatelessWidget {
                   maxLines: 3,
                   title,
                   style: TextStyle(
-                    fontSize: 13,
+                    fontSize: 15,
                   ),
                 ),
               ],
@@ -43,7 +45,7 @@ class Rowcard extends StatelessWidget {
           Text(
             week,
             style: TextStyle(
-                fontSize: 13, color: ColorConstants.BlackMain.withOpacity(.7)),
+                fontSize: 15, color: ColorConstants.BlackMain.withOpacity(.7)),
           )
         ],
       ),

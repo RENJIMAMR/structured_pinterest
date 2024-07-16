@@ -43,4 +43,20 @@ class ImageConstatnts {
   static String Craft5 = 'assets/data_images/craft5.jpeg';
   static String Craft6 = 'assets/data_images/craft6.jpeg';
   static String r = 'assets/images/R2.png';
+  static String moreideas1 = 'assets/data_images/more_ideas.1.jpg';
+  static String moreideas2 = 'assets/data_images/more_ideas.2.jpg';
+  static String moreideas3 = 'assets/data_images/more_ideas.3.jpg';
+  static String moreideas4 = 'assets/data_images/more_ideas.4.jpg';
+  static String moreideas5 = 'assets/data_images/more_ideas.5.jpg';
+  static String moreideas6 = 'assets/data_images/more_ideas.6.jpg';
+  static String moreideas7 = 'assets/data_images/more_ideas.7.jpg';
+  static String moreideas8 = 'assets/data_images/more_ideas.8.jpg';
+  static String moreideas9 = 'assets/data_images/more_ideas.9.jpg';
+  static String moreideas10 = 'assets/data_images/more_ideas.10.jpg';
+  static String moreideas11 = 'assets/data_images/more_ideas.11.jpg';
+  static String moreideas12 = 'assets/data_images/more_ideas.12.jpg';
+  static String moreideas13 = 'assets/data_images/more_ideas.13.jpg';
+  static String moreideas14 = 'assets/data_images/more_ideas.14.jpg';
+  static String moreideas15 = 'assets/data_images/more_ideas.15.jpg';
+  static String moreideas16 = 'assets/data_images/more_ideas.16.jpg';
 }
