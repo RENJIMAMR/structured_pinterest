@@ -22,7 +22,11 @@ class _HomePageState extends State<HomePage> {
         title: Text(
           'All',
           style: TextStyle(
-              color: ColorConstants.BlackMain,
+              shadows: [Shadow(offset: Offset(0, -8), color: Colors.black)],
+              // textBaseline: TextBaseline.values,
+              decoration: TextDecoration.underline,
+              decorationThickness: 4,
+              color: ColorConstants.TransparentMain,
               fontSize: 20,
               fontWeight: FontWeight.w900),
         ),
@@ -39,6 +43,7 @@ class _HomePageState extends State<HomePage> {
                   context,
                   MaterialPageRoute(
                       builder: (context) => DetailingPage(
+                            likeCount: Dummydb.Dataimage[index]['likeCount'],
                             images: Dummydb.Dataimage[index]['imagepath'],
                             description: Dummydb.Dataimage[index]
                                 ['description'],
@@ -50,7 +55,9 @@ class _HomePageState extends State<HomePage> {
             },
             child: Column(
               children: [
-                Image.asset(Dummydb.Dataimage[index]['imagepath']),
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(25),
+                    child: Image.asset(Dummydb.Dataimage[index]['imagepath'])),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -60,7 +67,7 @@ class _HomePageState extends State<HomePage> {
                       size: 25,
                     )
                   ],
-                )
+                ),
               ],
             ),
           ),

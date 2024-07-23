@@ -140,7 +140,7 @@ class Pins extends StatelessWidget {
             style: TextStyle(fontSize: 15, color: ColorConstants.BlackMain),
           ),
           SizedBox(
-            height: 110,
+            height: 50,
           )
         ],
       ),

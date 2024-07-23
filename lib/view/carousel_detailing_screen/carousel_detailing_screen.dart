@@ -26,10 +26,15 @@ class CarouselDetailingScreen extends StatelessWidget {
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Row(
               children: [
-                Icon(
-                  Icons.arrow_back_ios,
-                  color: ColorConstants.BlackMain,
-                  size: 30,
+                InkWell(
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                  child: Icon(
+                    Icons.arrow_back_ios,
+                    color: ColorConstants.BlackMain,
+                    size: 30,
+                  ),
                 ),
                 Expanded(
                   child: TextField(

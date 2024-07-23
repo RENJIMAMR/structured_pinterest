@@ -8,20 +8,23 @@ class Dummydb {
       'description': "Embracing the tranquility of nature.",
       'profile_pic_url': ImageConstatnts.profile_pic0,
       'name': 'Aisha',
-      'followers': '500k followers'
+      'followers': '500k followers',
+      'likeCount': 3
     },
     {
       'imagepath': ImageConstatnts.image_2,
       'description': "Where the wild things are.",
       'profile_pic_url': ImageConstatnts.profile_pic1,
       'name': 'Carlos',
-      'followers': '750k followers'
+      'followers': '750k followers',
+      'likeCount': 4
     },
     {
       'imagepath': ImageConstatnts.image_3,
       'description': "Nature's masterpiece.",
       'profile_pic_url': ImageConstatnts.profile_pic2,
       'name': 'Emma',
+      'likeCount': 10,
       'followers': '1.2m followers'
     },
     {
@@ -29,6 +32,7 @@ class Dummydb {
       'description': "Lost in the beauty of the great outdoors.",
       'profile_pic_url': ImageConstatnts.profile_pic3,
       'name': 'Li Wei',
+      'likeCount': 100,
       'followers': '900k followers'
     },
     {
@@ -36,6 +40,7 @@ class Dummydb {
       'description': "Breathe in the fresh air.",
       'profile_pic_url': ImageConstatnts.profile_pic4,
       'name': 'Sophia',
+      'likeCount': 67,
       'followers': '1.5m followers'
     },
     {
@@ -43,6 +48,7 @@ class Dummydb {
       'description': "Finding peace in the wilderness.",
       'profile_pic_url': ImageConstatnts.profile_pic5,
       'name': 'Mohammed',
+      'likeCount': 40,
       'followers': '2m followers'
     },
     {
@@ -50,6 +56,7 @@ class Dummydb {
       'description': "Wander often, wonder always.",
       'profile_pic_url': ImageConstatnts.profile_pic6,
       'name': 'Olivia',
+      'likeCount': 50,
       'followers': '800k followers'
     },
     {
@@ -57,6 +64,7 @@ class Dummydb {
       'description': "Nature does not hurry, yet everything is accomplished.",
       'profile_pic_url': ImageConstatnts.profile_pic7,
       'name': 'Juan',
+      'likeCount': 10,
       'followers': '600k followers'
     },
     {
@@ -64,6 +72,7 @@ class Dummydb {
       'description': "Let nature be your guide.",
       'profile_pic_url': ImageConstatnts.profile_pic8,
       'name': 'Aria',
+      'likeCount': 19,
       'followers': '1.1m followers'
     },
     {
@@ -71,6 +80,7 @@ class Dummydb {
       'description': "Chasing sunsets and dreams.",
       'profile_pic_url': ImageConstatnts.profile_pic9,
       'name': 'Daniel',
+      'likeCount': 190,
       'followers': '700k followers'
     },
     {
@@ -78,6 +88,7 @@ class Dummydb {
       'description': "Nature's palette is the most beautiful.",
       'profile_pic_url': ImageConstatnts.profile_pic10,
       'name': 'Mia',
+      'likeCount': 1099,
       'followers': '1.3m followers'
     },
     {
@@ -85,6 +96,7 @@ class Dummydb {
       'description': "Adventure awaits in every corner of nature.",
       'profile_pic_url': ImageConstatnts.profile_pic11,
       'name': 'James',
+      'likeCount': 155,
       'followers': '1m followers'
     },
     {
@@ -92,6 +104,7 @@ class Dummydb {
       'description': "Serenity found in nature's embrace.",
       'profile_pic_url': ImageConstatnts.profile_pic12,
       'name': 'Chloe',
+      'likeCount': 1090,
       'followers': '550k followers'
     },
     {
@@ -99,6 +112,7 @@ class Dummydb {
       'description': "The earth has music for those who listen.",
       'profile_pic_url': ImageConstatnts.profile_pic13,
       'name': 'Ethan',
+      'likeCount': 776,
       'followers': '1.7m followers'
     },
     {
@@ -106,6 +120,7 @@ class Dummydb {
       'description': "Exploring the wild, finding my soul.",
       'profile_pic_url': ImageConstatnts.profile_pic14,
       'name': 'Hana',
+      'likeCount': 187,
       'followers': '650k followers'
     },
     {
@@ -113,6 +128,7 @@ class Dummydb {
       'description': "Nature's beauty never fades.",
       'profile_pic_url': ImageConstatnts.profile_pic15,
       'name': 'rahul',
+      'likeCount': 178,
       'followers': '690k followers'
     },
   ];

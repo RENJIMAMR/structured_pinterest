@@ -17,10 +17,15 @@ class PinDetailing extends StatelessWidget {
                   left: 20, right: 20, top: 15, bottom: 0),
               child: Row(
                 children: [
-                  Icon(
-                    Icons.close,
-                    size: 40,
-                    color: ColorConstants.BlackMain,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
+                    child: Icon(
+                      Icons.close,
+                      size: 40,
+                      color: ColorConstants.BlackMain,
+                    ),
                   ),
                   SizedBox(
                     width: 20,

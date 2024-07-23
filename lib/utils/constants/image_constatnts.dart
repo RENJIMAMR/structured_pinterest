@@ -63,4 +63,5 @@ class ImageConstatnts {
   static String profilePage2 = 'assets/images/profile_page2.jpg';
   static String profilePage3 = 'assets/images/profile_page3.jpg';
   static String profilePage4 = 'assets/images/profile_page4.jpg';
+  static String chatBubble = 'assets/images/chat_bubble.jpeg';
 }
