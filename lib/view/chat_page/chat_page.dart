@@ -12,85 +12,93 @@ class ChatPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 2,
-      child: Scaffold(
-          body: Column(
-        children: [
-          SizedBox(
-            height: 20,
-          ),
-          TabBar(
-              unselectedLabelColor: ColorConstants.BlackMain,
-              labelColor: ColorConstants.BlackMain,
-              indicatorColor: ColorConstants.BlackMain,
-              indicatorSize: TabBarIndicatorSize.label,
-              dividerHeight: 0,
-              tabs: [
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'Updates',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Container(
-                        height: 27,
-                        width: 20,
-                        decoration: BoxDecoration(
-                            color: ColorConstants.RedMain,
-                            borderRadius: BorderRadius.circular(10)),
-                        child: Center(
-                          child: Text(
-                            '99',
-                            style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold,
-                                color: ColorConstants.WhiteMain),
+      child: SafeArea(
+        child: Scaffold(
+            body: Column(
+          children: [
+            SizedBox(
+              height: 20,
+            ),
+            TabBar(
+                unselectedLabelColor: ColorConstants.BlackMain,
+                labelColor: ColorConstants.BlackMain,
+                indicatorColor: ColorConstants.BlackMain,
+                indicatorSize: TabBarIndicatorSize.label,
+                dividerHeight: 0,
+                tabs: [
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 5),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          'Updates',
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
                           ),
-                        )),
-                  ],
-                ),
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'Inbox',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                      ),
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Container(
+                            height: 27,
+                            width: 20,
+                            decoration: BoxDecoration(
+                                color: ColorConstants.RedMain,
+                                borderRadius: BorderRadius.circular(10)),
+                            child: Center(
+                              child: Text(
+                                '99',
+                                style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.bold,
+                                    color: ColorConstants.WhiteMain),
+                              ),
+                            )),
+                      ],
                     ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Container(
-                        height: 27,
-                        width: 18,
-                        decoration: BoxDecoration(
-                            color: ColorConstants.RedMain,
-                            borderRadius: BorderRadius.circular(10)),
-                        child: Center(
-                          child: Text(
-                            '1',
-                            style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold,
-                                color: ColorConstants.WhiteMain),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 5),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          'Inbox',
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
                           ),
-                        )),
-                  ],
-                ),
-              ]),
-          Expanded(
-            child: TabBarView(children: [UpdatesTab(), InboxTab()]),
-          )
-        ],
-      )),
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Container(
+                            height: 27,
+                            width: 18,
+                            decoration: BoxDecoration(
+                                color: ColorConstants.RedMain,
+                                borderRadius: BorderRadius.circular(10)),
+                            child: Center(
+                              child: Text(
+                                '1',
+                                style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.bold,
+                                    color: ColorConstants.WhiteMain),
+                              ),
+                            )),
+                      ],
+                    ),
+                  ),
+                ]),
+            Expanded(
+              child: TabBarView(children: [UpdatesTab(), InboxTab()]),
+            )
+          ],
+        )),
+      ),
     );
   }
 }

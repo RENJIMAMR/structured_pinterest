@@ -10,7 +10,7 @@ class UpdatesTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.symmetric(horizontal: 15),
       child: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -18,9 +18,12 @@ class UpdatesTab extends StatelessWidget {
             SizedBox(
               height: 12,
             ),
-            Text(
-              'Seen',
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 7),
+              child: Text(
+                'Seen',
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              ),
             ),
             Column(
                 children: List.generate(

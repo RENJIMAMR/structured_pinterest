@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:structured_pinterest/utils/constants/color_constants.dart';
 import 'package:structured_pinterest/view/profile_page/tabs/boards.dart';
 import 'package:structured_pinterest/view/profile_page/tabs/pins.dart';
+import 'package:structured_pinterest/view/your_account/your_account.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -22,10 +23,19 @@ class ProfilePage extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: CircleAvatar(
                         backgroundColor: ColorConstants.Grey.withOpacity(.2),
-                        child: Text(
-                          'R',
-                          style: TextStyle(
-                              fontSize: 16, fontWeight: FontWeight.bold),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => YourAccount(),
+                                ));
+                          },
+                          child: Text(
+                            'R',
+                            style: TextStyle(
+                                fontSize: 16, fontWeight: FontWeight.bold),
+                          ),
                         ),
                       ),
                     ),

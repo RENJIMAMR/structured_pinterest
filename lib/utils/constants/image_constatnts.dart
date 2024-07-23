@@ -39,9 +39,9 @@ class ImageConstatnts {
   static String Craft1 = 'assets/data_images/craft1.jpeg';
   static String Craft2 = 'assets/data_images/craft2.jpeg';
   static String Craft3 = 'assets/data_images/craft3.jpeg';
-  static String Craft4 = 'assets/data_images/craft4.jpeg';
+  static String Craft4 = 'assets/data_images/craft7.jpg';
   static String Craft5 = 'assets/data_images/craft5.jpeg';
-  static String Craft6 = 'assets/data_images/craft6.jpeg';
+  static String Craft6 = 'assets/data_images/craft8.jpg';
   static String r = 'assets/images/R2.png';
   static String moreideas1 = 'assets/data_images/more_ideas.1.jpg';
   static String moreideas2 = 'assets/data_images/more_ideas.2.jpg';
@@ -59,4 +59,8 @@ class ImageConstatnts {
   static String moreideas14 = 'assets/data_images/more_ideas.14.jpg';
   static String moreideas15 = 'assets/data_images/more_ideas.15.jpg';
   static String moreideas16 = 'assets/data_images/more_ideas.16.jpg';
+  static String profilePage1 = 'assets/images/profile_page1.jpg';
+  static String profilePage2 = 'assets/images/profile_page2.jpg';
+  static String profilePage3 = 'assets/images/profile_page3.jpg';
+  static String profilePage4 = 'assets/images/profile_page4.jpg';
 }

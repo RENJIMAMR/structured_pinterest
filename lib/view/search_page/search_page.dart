@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:structured_pinterest/utils/constants/color_constants.dart';
 import 'package:structured_pinterest/utils/constants/image_constatnts.dart';
+import 'package:structured_pinterest/view/carousel_detailing_screen/carousel_detailing_screen.dart';
 import 'package:structured_pinterest/view/dummydb.dart';
 import 'package:structured_pinterest/view/search_page/Widget/row_card.dart';
 
@@ -8,14 +9,14 @@ class SearchPage extends StatefulWidget {
   const SearchPage({
     super.key,
   });
-  // final List <String> ideas_pic_url=[];
-  // final List<String> container_pic;
+
   @override
   State<SearchPage> createState() => _SearchPageState();
 }
 
 class _SearchPageState extends State<SearchPage> {
   int currentindex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,46 +29,69 @@ class _SearchPageState extends State<SearchPage> {
             child: Stack(children: [
               PageView.builder(
                 itemCount: Dummydb.pageview_data.length,
-                itemBuilder: (context, index) => Container(
-                  height: 400,
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        textAlign: TextAlign.center,
-                        Dummydb.pageview_data[index]['profile'],
-                        maxLines: 4,
-                        style: TextStyle(
-                          fontSize: 17,
-                          color: ColorConstants.WhiteMain,
-                        ),
-                      ),
-                      Text(
-                        textAlign: TextAlign.center,
-                        Dummydb.pageview_data[index]['title'],
-                        maxLines: 4,
-                        style: TextStyle(
-                            fontSize: 20,
+                itemBuilder: (context, index) => InkWell(
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) {
+                      List urlList = Dummydb.carouselDetailingData[index]
+                          ['image_url'] as List;
+                      List captList = Dummydb.carouselDetailingData[index]
+                          ['caption'] as List;
+                      return CarouselDetailingScreen(
+                        imagesList: urlList,
+                        searchTitle: Dummydb.carouselDetailingData[index]
+                            ['title'],
+                        description: Dummydb.carouselDetailingData[index]
+                            ['description'],
+                        image_url: urlList[index],
+                        caption: captList[index],
+                        captionList: captList,
+                      );
+                    }));
+
+                    setState(() {});
+                  },
+                  child: Container(
+                    height: 400,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Text(
+                          textAlign: TextAlign.center,
+                          Dummydb.pageview_data[index]['profile'],
+                          maxLines: 4,
+                          style: TextStyle(
+                            fontSize: 17,
                             color: ColorConstants.WhiteMain,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    ],
+                          ),
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          Dummydb.pageview_data[index]['title'],
+                          maxLines: 4,
+                          style: TextStyle(
+                              fontSize: 20,
+                              color: ColorConstants.WhiteMain,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ],
+                    ),
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image:
+                                AssetImage(Dummydb.pageview_data[index]['url']),
+                            fit: BoxFit.cover)),
                   ),
-                  decoration: BoxDecoration(
-                      image: DecorationImage(
-                          image:
-                              AssetImage(Dummydb.pageview_data[index]['url']),
-                          fit: BoxFit.cover)),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 13, left: 8, right: 8),
+                padding: const EdgeInsets.only(top: 25, left: 8, right: 8),
                 child: TextField(
                   decoration: InputDecoration(
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(25),
-                      ),
+                          borderRadius: BorderRadius.circular(25),
+                          borderSide: BorderSide.none),
                       fillColor: ColorConstants.WhiteMain,
                       filled: true,
                       hintText: 'Search',

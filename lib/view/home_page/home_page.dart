@@ -17,14 +17,12 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorConstants.BlackMain,
       appBar: AppBar(
-        backgroundColor: ColorConstants.BlackMain,
         centerTitle: true,
         title: Text(
           'All',
           style: TextStyle(
-              color: ColorConstants.WhiteMain,
+              color: ColorConstants.BlackMain,
               fontSize: 20,
               fontWeight: FontWeight.w900),
         ),
@@ -58,7 +56,7 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Icon(
                       Icons.more_horiz,
-                      color: ColorConstants.WhiteMain,
+                      color: ColorConstants.BlackMain,
                       size: 25,
                     )
                   ],
@@ -68,37 +66,6 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
-      // bottomNavigationBar: BottomNavigationBar(
-      //     currentIndex: currentIndex,
-      //     onTap: (index) => setState(() => currentIndex = index),
-      //     backgroundColor: ColorConstants.BlackMain,
-      //     iconSize: 40,
-      //     unselectedItemColor: ColorConstants.White_shade_7,
-      //     selectedItemColor: ColorConstants.WhiteMain,
-      //     items: [
-      //       BottomNavigationBarItem(
-      //           icon: Icon(Icons.home),
-      //           label: 'Home',
-      //           backgroundColor: ColorConstants.BlackMain),
-      //       BottomNavigationBarItem(
-      //           icon: Icon(Icons.search),
-      //           label: 'search',
-      //           backgroundColor: Colors.black),
-      //       BottomNavigationBarItem(
-      //           icon: Icon(
-      //             Icons.add,
-      //           ),
-      //           label: 'creator button',
-      //           backgroundColor: ColorConstants.BlackMain),
-      //       BottomNavigationBarItem(
-      //           icon: Icon(Icons.chat_bubble_outline),
-      //           label: 'chat',
-      //           backgroundColor: ColorConstants.BlackMain),
-      //       BottomNavigationBarItem(
-      //           icon: Icon(Icons.person),
-      //           label: 'profile',
-      //           backgroundColor: ColorConstants.BlackMain)
-      //     ]),
     );
   }
 }

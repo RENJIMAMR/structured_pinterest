@@ -20,7 +20,6 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: ColorConstants.BlackMain,
         leading: Icon(
           Icons.close,
           color: ColorConstants.White_shade_7,
@@ -34,7 +33,6 @@ class LoginPage extends StatelessWidget {
               fontWeight: FontWeight.w900),
         ),
       ),
-      backgroundColor: ColorConstants.BlackMain,
       body: Padding(
         padding: const EdgeInsets.all(30),
         child: SingleChildScrollView(
@@ -45,7 +43,7 @@ class LoginPage extends StatelessWidget {
                 // width: 400,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(26),
-                  color: ColorConstants.grey_shaded_6,
+                  color: ColorConstants.Grey.withOpacity(.3),
                 ),
                 child: Padding(
                   padding:
@@ -65,7 +63,7 @@ class LoginPage extends StatelessWidget {
                         child: Text(
                           'Continue with Google',
                           style: TextStyle(
-                              color: ColorConstants.WhiteMain,
+                              color: ColorConstants.BlackMain,
                               fontWeight: FontWeight.w700,
                               fontSize: 20),
                         ),
@@ -80,7 +78,7 @@ class LoginPage extends StatelessWidget {
               Text(
                 'Or',
                 style: TextStyle(
-                    color: ColorConstants.WhiteMain,
+                    color: ColorConstants.BlackMain,
                     fontWeight: FontWeight.w500,
                     fontSize: 20),
               ),
@@ -99,7 +97,7 @@ class LoginPage extends StatelessWidget {
                 // },
                 child: TextFormField(
                   style:
-                      TextStyle(color: ColorConstants.WhiteMain, fontSize: 25),
+                      TextStyle(color: ColorConstants.BlackMain, fontSize: 25),
                   validator: (value) {
                     if (value != null &&
                         value.isNotEmpty &&
@@ -139,7 +137,7 @@ class LoginPage extends StatelessWidget {
                   //     },
                   child: TextFormField(
                     style: TextStyle(
-                        color: ColorConstants.WhiteMain, fontSize: 25),
+                        color: ColorConstants.BlackMain, fontSize: 25),
                     obscureText: true,
                     controller: passwordcontroller,
                     validator: (value) {
@@ -211,7 +209,7 @@ class LoginPage extends StatelessWidget {
               Text(
                 'Forgotten Password?',
                 style: TextStyle(
-                    color: ColorConstants.Grey,
+                    color: ColorConstants.BlackMain,
                     fontWeight: FontWeight.w700,
                     fontSize: 20),
               ),

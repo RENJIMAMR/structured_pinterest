@@ -18,4 +18,6 @@ class ColorConstants {
   static Color yellowMain = Colors.amber;
   static Color Grey = Colors.grey;
   static Color white_shade = Color.fromARGB(255, 231, 239, 244);
+  static Color Pink = Colors.pink;
+  static Color Green = Colors.green.shade800;
 }
