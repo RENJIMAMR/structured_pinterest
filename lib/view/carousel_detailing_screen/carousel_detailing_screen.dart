@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:structured_pinterest/utils/constants/color_constants.dart';
+import 'package:structured_pinterest/view/carousel_ultra_detailing_screen/carousel_ultra_detailing_screen.dart';
 import 'package:structured_pinterest/view/dummydb.dart';
 
 class CarouselDetailingScreen extends StatelessWidget {
@@ -71,9 +72,45 @@ class CarouselDetailingScreen extends StatelessWidget {
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(30),
-                        child: Image(
-                          image: NetworkImage(imagesList[index]),
-                          // fit: BoxFit.cover,
+                        child: InkWell(
+                          onTap: () {
+                            List imageList =
+                                Dummydb.crouselUtraDetailing_clay[index]
+                                    ['image_url'] as List;
+                            List profile_picList =
+                                Dummydb.carouselDetailingData[index]
+                                    ['profile_pic'] as List;
+                            List d_descriptionList =
+                                Dummydb.carouselDetailingData[index]
+                                    ['D_description'] as List;
+                            List profile_nameList =
+                                Dummydb.carouselDetailingData[index]
+                                    ['profile_name'] as List;
+                            List followersList =
+                                Dummydb.carouselDetailingData[index]
+                                    ['followers'] as List;
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      CarouselUltraDetailingScreen(
+                                          image_url: imageList[index],
+                                          profile_pic: profile_picList[index],
+                                          d_description:
+                                              d_descriptionList[index],
+                                          profile_name: profile_nameList[index],
+                                          followers: followersList[index],
+                                          imageList: imageList,
+                                          profile_picList: profile_picList,
+                                          d_descriptionList: d_descriptionList,
+                                          profile_nameList: profile_nameList,
+                                          followersList: followersList),
+                                ));
+                          },
+                          child: Image(
+                            image: NetworkImage(imagesList[index]),
+                            // fit: BoxFit.cover,
+                          ),
                         ),
                       ),
                       Row(
