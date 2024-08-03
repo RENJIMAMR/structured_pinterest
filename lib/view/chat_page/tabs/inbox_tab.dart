@@ -24,7 +24,7 @@ class InboxTab extends StatelessWidget {
                     borderSide: BorderSide.none,
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  fillColor: ColorConstants.grey_shaded_1.withOpacity(.1),
+                  fillColor: ColorConstants.grey_shaded_1.withOpacity(.2),
                   filled: true,
                   prefixIcon: Icon(Icons.search),
                   hintText: 'Search by name or email'),

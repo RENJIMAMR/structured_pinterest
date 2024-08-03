@@ -74,9 +74,6 @@ class CarouselDetailingScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(30),
                         child: InkWell(
                           onTap: () {
-                            List imageList =
-                                Dummydb.crouselUtraDetailing_clay[index]
-                                    ['image_url'] as List;
                             List profile_picList =
                                 Dummydb.carouselDetailingData[index]
                                     ['profile_pic'] as List;
@@ -94,13 +91,14 @@ class CarouselDetailingScreen extends StatelessWidget {
                                 MaterialPageRoute(
                                   builder: (context) =>
                                       CarouselUltraDetailingScreen(
-                                          image_url: imageList[index],
-                                          profile_pic: profile_picList[index],
-                                          d_description:
-                                              d_descriptionList[index],
+                                          image_url: imagesList[index] ?? "",
+                                          profile_pic:
+                                              profile_picList[index] ?? "",
+                                          dDescription:
+                                              d_descriptionList[index] ?? "",
                                           profile_name: profile_nameList[index],
-                                          followers: followersList[index],
-                                          imageList: imageList,
+                                          followers: followersList[index] ?? "",
+                                          imageList: imagesList,
                                           profile_picList: profile_picList,
                                           d_descriptionList: d_descriptionList,
                                           profile_nameList: profile_nameList,

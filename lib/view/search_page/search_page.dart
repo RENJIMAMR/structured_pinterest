@@ -2,7 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:structured_pinterest/utils/constants/color_constants.dart';
 import 'package:structured_pinterest/utils/constants/image_constatnts.dart';
-import 'package:structured_pinterest/video_player.dart';
+import 'package:structured_pinterest/view/splash_screen/video_player_screen.dart';
 import 'package:structured_pinterest/view/carousel_detailing_screen/carousel_detailing_screen.dart';
 import 'package:structured_pinterest/view/dummydb.dart';
 import 'package:structured_pinterest/view/search_page/Widget/row_card.dart';

@@ -138,7 +138,7 @@ class WelcomePage extends StatelessWidget {
                             },
                             child: Container(
                               padding: EdgeInsets.all(10),
-                              height: 60,
+                              height: double.maxFinite,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(30),
                                 color: ColorConstants.RedMain,
