@@ -3,7 +3,6 @@ import 'package:structured_pinterest/utils/constants/color_constants.dart';
 import 'package:structured_pinterest/utils/constants/image_constatnts.dart';
 import 'package:structured_pinterest/view/bottom_nav_bar_screen/bottom_nav_bar_screen.dart';
 import 'package:structured_pinterest/view/dummydb.dart';
-import 'package:structured_pinterest/view/home_page/home_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({

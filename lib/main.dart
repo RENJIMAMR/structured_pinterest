@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:structured_pinterest/view/login_page/login_page.dart';
 import 'package:structured_pinterest/view/splash_screen/splash_screen.dart';
 
 import 'package:structured_pinterest/view/bottom_nav_bar_screen/bottom_nav_bar_screen.dart';
+import 'package:structured_pinterest/view/trial_screen/trial_screen.dart';
 
 void main(List<String> args) {
   runApp(MyApp());

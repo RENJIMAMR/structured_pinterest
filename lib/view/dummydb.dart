@@ -416,7 +416,7 @@ class Dummydb {
         'How is this Scenary?',
         'Coffeee?',
         '',
-        'Beautiful..'
+        ''
       ],
       'description':
           'From humble clay, creation springs anew,In hands of artists, life and form pursue.With every turn, a masterpiece unfolds,In earthen whispers, timeless art is told.',
@@ -426,7 +426,7 @@ class Dummydb {
         'https://i.pinimg.com/474x/70/5b/96/705b96cc05f8ff4400daef3d3e36ea18.jpg',
         'https://i.pinimg.com/474x/d0/63/26/d06326365935dee9dfbf06e6381b2283.jpg',
         'https://i.pinimg.com/474x/1e/5c/87/1e5c87d7c02f102a56863725e6884672.jpg',
-        'https://i.pinimg.com/474x/f8/ca/0f/f8ca0f3409b99d44829408ee62559222.jpg'
+        'https://i.pinimg.com/474x/1e/5c/87/1e5c87d7c02f102a56863725e6884672.jpg'
       ],
       'profile_pic': [
         'https://images.pexels.com/photos/8159657/pexels-photo-8159657.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=170.625&fit=crop&h=276.25',
@@ -434,16 +434,16 @@ class Dummydb {
         'https://images.pexels.com/photos/24235269/pexels-photo-24235269/free-photo-of-photo-of-a-young-woman-holding-her-hair-up.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/24260386/pexels-photo-24260386/free-photo-of-black-and-white-photo-of-a-young-man-standing-outside.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/24185772/pexels-photo-24185772/free-photo-of-portrait-of-brunette-woman-in-a-studio.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/24181535/pexels-photo-24181535/free-photo-of-man-in-shirt-and-patterned-waistcoat.jpeg?auto=compress&cs=tinysrgb&w=400',
+        'https://images.pexels.com/photos/24185772/pexels-photo-24185772/free-photo-of-portrait-of-brunette-woman-in-a-studio.jpeg?auto=compress&cs=tinysrgb&w=400',
       ],
-      'profile_name': ['Oliver', 'Emma', 'Liam', 'Sophia', 'Noah', 'Ava'],
+      'profile_name': ['Oliver', 'Emma', 'Liam', 'Sophia', 'Noah', 'Sa'],
       'followers': [
         '90 followers',
         '23 followers',
         '250 followers',
         '467 followers',
         '234 followers',
-        '9876 followers',
+        '34 followers'
       ],
       'D_description': [
         "Clay art is a versatile medium.",
@@ -451,7 +451,7 @@ class Dummydb {
         "You can mold it into any shape.",
         "It is often used in pottery.",
         "Clay art can be painted.",
-        "It requires patience and skill."
+        ''
       ],
     },
     {
@@ -462,7 +462,7 @@ class Dummydb {
         'Classic',
         'Simple..',
         'PineApple..',
-        '',
+        ''
       ],
       'description':
           "Within the bag, a world of dreams unfurls,Threads and tools, like hidden pearls.With every stitch, and careful seam,A maker's heart in crafted dreams.",
@@ -472,7 +472,7 @@ class Dummydb {
         'https://i.pinimg.com/474x/7c/14/13/7c1413ff0e224bf00c32bcef85e1f9f6.jpg',
         'https://i.pinimg.com/474x/63/18/67/631867b966c6e4f414e2b5da8c38204d.jpg',
         'https://i.pinimg.com/474x/3a/f5/4e/3af54ef92fcf957dab8e2270b439230f.jpg',
-        'https://i.pinimg.com/474x/24/f0/6d/24f06dece4bac1196028b6013d53c523.jpg'
+        'https://i.pinimg.com/474x/3a/f5/4e/3af54ef92fcf957dab8e2270b439230f.jpg',
       ],
       'profile_pic': [
         'https://images.pexels.com/photos/23995223/pexels-photo-23995223/free-photo-of-attractive-woman-sitting-on-a-chair-against-white-background.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -480,23 +480,16 @@ class Dummydb {
         'https://images.pexels.com/photos/23945347/pexels-photo-23945347/free-photo-of-portrait-of-woman-wearing-a-hat.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/23939543/pexels-photo-23939543/free-photo-of-side-view-of-young-woman-fixing-her-hair.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
+        'https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=400',
       ],
-      'profile_name': [
-        'Oliver',
-        'Emma',
-        'Liam',
-        'Sophia',
-        'Noah',
-        'Ava',
-      ],
+      'profile_name': ['ram', 'Emma', 'Liam', 'Sophia', 'Noah', ''],
       'followers': [
         '123 followers',
         '7654 followers',
         '765 followers',
         '123 followers',
         '987 followers',
-        '23 followers',
+        '45 followers'
       ],
       'D_description': [
         "Craft bags are perfect for DIY projects.",
@@ -504,12 +497,12 @@ class Dummydb {
         "You can decorate them with paint.",
         "They are great for gift wrapping.",
         "Craft bags are reusable.",
-        "They are made from different materials."
+        ''
       ],
     },
     {
       'title': 'Painting Ideas',
-      'caption': ['', 'Cuties', '', 'My Painting', '', 'Beautiful..'],
+      'caption': ['', 'Cuties', '', 'My Painting', '', ''],
       'description':
           "Brush in hand, a canvas wide,Colors dance and worlds collide.In every stroke, a story blooms,A painter’s soul, in hues and plumes.",
       'image_url': [
@@ -518,7 +511,7 @@ class Dummydb {
         'https://i.pinimg.com/474x/64/bb/e3/64bbe36b1c2d5222f5294ab21d87b964.jpg',
         'https://i.pinimg.com/474x/5d/1b/3e/5d1b3e2ea9556a73cac40493655fe647.jpg',
         'https://i.pinimg.com/474x/3f/d3/9f/3fd39fdfec2955e40498061cdb500f3b.jpg',
-        'https://i.pinimg.com/474x/47/aa/95/47aa95a870691f2d0aa90f1ba95748b8.jpg'
+        'https://i.pinimg.com/474x/3f/d3/9f/3fd39fdfec2955e40498061cdb500f3b.jpg',
       ],
       'profile_pic': [
         'https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -526,23 +519,16 @@ class Dummydb {
         'https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/2709388/pexels-photo-2709388.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/1572878/pexels-photo-1572878.jpeg?auto=compress&cs=tinysrgb&w=400',
+        'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
       ],
-      'profile_name': [
-        'Isabella',
-        'Mason',
-        'Mia',
-        'Lucas',
-        'Amelia',
-        'Logan',
-      ],
+      'profile_name': ['Isabella', 'Mason', 'Mia', 'Lucas', 'Amelia', ''],
       'followers': [
         '765 followers',
         '34 followers',
         '98 followers',
         '23 followers',
         '98 followers',
-        '567 followers',
+        '98 followers',
       ],
       'D_description': [
         "Paintings capture emotions and stories.",
@@ -550,21 +536,12 @@ class Dummydb {
         "Colors play a significant role in paintings.",
         "Abstract art can be open to interpretation.",
         "Portraits focus on capturing likeness.",
-        "Landscapes often depict natural beauty."
+        ''
       ],
     },
     {
       'title': 'Cute Clay Arts',
-      'caption': [
-        'Cuties',
-        '',
-        'How is this ?',
-        'Little flowers',
-        '',
-        '',
-        'Beautiful..',
-        'What about me?'
-      ],
+      'caption': ['Cuties', '', 'How is this ?', 'Little flowers', '', ''],
       'description':
           " Art takes its form,In sculptor's hands, creations warm.Shapes and dreams in mud arise,Crafting beauty beneath the skies.",
       'image_url': [
@@ -573,9 +550,7 @@ class Dummydb {
         'https://i.pinimg.com/474x/c1/4b/18/c14b18852e9a55600bf2d1ca8d8243ec.jpg',
         'https://i.pinimg.com/474x/a9/2d/17/a92d175e14ca94712cc373e7d42320ab.jpg',
         'https://i.pinimg.com/474x/a4/39/eb/a439eb82a0baf8a29340e68bd30e72ca.jpg',
-        'https://i.pinimg.com/474x/0f/07/46/0f0746defdaf22aafe6a3d32ac7a6af3.jpg',
-        'https://i.pinimg.com/474x/25/67/c7/2567c79f3e5c7a2df6c331e071001d3d.jpg',
-        'https://i.pinimg.com/474x/1e/3d/3d/1e3d3daf28773b7547f40368bd3c7cb8.jpg'
+        'https://i.pinimg.com/474x/a4/39/eb/a439eb82a0baf8a29340e68bd30e72ca.jpg',
       ],
       'profile_pic': [
         'https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -583,19 +558,15 @@ class Dummydb {
         'https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/13069698/pexels-photo-13069698.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/1821095/pexels-photo-1821095.jpeg?auto=compress&cs=tinysrgb&w=400',
+        'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400',
       ],
       'profile_name': [
         'Charlotte',
         'Elijah',
         'Harper',
         'James',
-        'Evelyn',
         'Benjamin',
-        'Sophia',
-        'Noah',
+        'Benjamin',
       ],
       'followers': [
         '765 followers',
@@ -603,9 +574,7 @@ class Dummydb {
         '98 followers',
         '345 followers',
         '234 followers',
-        '098 followers',
-        '3456 followers',
-        '98 followers',
+        '234 followers',
       ],
       'D_description': [
         "Cute clay art includes mini sculptures.",
@@ -613,14 +582,12 @@ class Dummydb {
         "Bright colors make them appealing.",
         "They are often used as charms.",
         "Kids love making cute clay art.",
-        "It can be turned into jewelry.",
-        "Cute clay art makes great gifts.",
-        "Simple designs are often the best."
+        ''
       ],
     },
     {
       'title': 'Cute Painting Ideas',
-      'caption': ['', '', 'Fishy', '', 'Beautiful..'],
+      'caption': ['', '', 'Fishy', '', 'Beautiful..', ''],
       'description':
           "With every brushstroke, visions flow,Colors blend, emotions show.On canvas wide, dreams take flight,A painter's heart in hues of light.",
       'image_url': [
@@ -628,12 +595,14 @@ class Dummydb {
         'https://i.pinimg.com/474x/21/16/5a/21165a0aef64552dd65ed8e9c7c83b17.jpg',
         'https://i.pinimg.com/474x/4f/d9/ef/4fd9ef6497e4d0a175fcebe74315951b.jpg',
         'https://i.pinimg.com/474x/5b/63/54/5b63547ab4ec389ccd8bc3a9358dadaa.jpg',
-        'https://i.pinimg.com/474x/49/ac/d3/49acd3d17d2be8c2d1ba1db9797e13b4.jpg'
+        'https://i.pinimg.com/474x/49/ac/d3/49acd3d17d2be8c2d1ba1db9797e13b4.jpg',
+        'https://i.pinimg.com/474x/49/ac/d3/49acd3d17d2be8c2d1ba1db9797e13b4.jpg',
       ],
       'profile_pic': [
         'https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/12244376/pexels-photo-12244376.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/4029925/pexels-photo-4029925.jpeg?auto=compress&cs=tinysrgb&w=400',
+        'https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=400',
       ],
@@ -642,7 +611,8 @@ class Dummydb {
         'Emily',
         'Alexander',
         'Scarlett',
-        'Daniel',
+        'ka'
+            'Daniel',
       ],
       'followers': [
         '456 followers',
@@ -650,27 +620,20 @@ class Dummydb {
         '876 followers',
         '987 followers',
         '123 followers',
+        '123 followers',
       ],
       'D_description': [
         "Cute painting art features adorable characters.",
         "Bright colors enhance the charm.",
         "Simple designs are easy to create.",
         "Animals and cartoon styles are popular.",
-        "Cute art makes great decorations."
+        "Cute art makes great decorations.",
+        "Cute art makes great decorations.",
       ],
     },
     {
       'title': 'Indoor Plants ',
-      'caption': [
-        'Elegant',
-        '',
-        'How is this ?',
-        'Beautiful..',
-        'cute',
-        '',
-        'My Fav',
-        'Rooms like this'
-      ],
+      'caption': ['Elegant', '', 'How is this ?', 'Beautiful..', 'cute', ''],
       'description':
           "Within these walls, a world unfolds,Quiet corners, stories told.In cozy nooks, life's moments gleam,Indoors, we weave our sweetest dreams.",
       'image_url': [
@@ -679,9 +642,7 @@ class Dummydb {
         'https://i.pinimg.com/474x/70/3e/9c/703e9c1d17c60c3343d8495957d5dd74.jpg',
         'https://i.pinimg.com/474x/9d/e8/2f/9de82f08e7b79c919d3f1a9a40b39768.jpg',
         'https://i.pinimg.com/474x/e8/e1/7a/e8e17aecbb6125a0a3491ad961827b2a.jpg',
-        'https://i.pinimg.com/474x/76/a3/fd/76a3fd47e3cdcf17b60bb56fbdb8d420.jpg',
-        'https://i.pinimg.com/474x/aa/6f/c4/aa6fc424222d40d4d0deddf7d53cee8d.jpg',
-        'https://i.pinimg.com/474x/7a/25/59/7a255972445ab83290a60e1f29a9f236.jpg'
+        'https://i.pinimg.com/474x/e8/e1/7a/e8e17aecbb6125a0a3491ad961827b2a.jpg',
       ],
       'profile_pic': [
         'https://images.pexels.com/photos/1559193/pexels-photo-1559193.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -689,29 +650,16 @@ class Dummydb {
         'https://images.pexels.com/photos/1036620/pexels-photo-1036620.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/4946515/pexels-photo-4946515.jpeg?auto=compress&cs=tinysrgb&w=400',
         'https://images.pexels.com/photos/1441151/pexels-photo-1441151.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/3778361/pexels-photo-3778361.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=400',
-        'https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=400',
+        'https://images.pexels.com/photos/1441151/pexels-photo-1441151.jpeg?auto=compress&cs=tinysrgb&w=400',
       ],
-      'profile_name': [
-        'Madison',
-        'Henry',
-        'Aria',
-        'Matthew',
-        'Grace',
-        'Harper',
-        'James',
-        'ram'
-      ],
+      'profile_name': ['Madison', 'Henry', 'Aria', 'Matthew', 'Grace', ''],
       'followers': [
         '234 followers',
         '65 followers',
         '987 followers',
         '5 followers',
         '987 followers',
-        '23 followers',
-        '8 followers',
-        '234 followers',
+        ''
       ],
       'D_description': [
         "Indoor plants improve air quality.",
@@ -719,375 +667,373 @@ class Dummydb {
         "Succulents are easy to care for.",
         "Ferns thrive in low light.",
         "Watering needs vary by plant type.",
-        "Indoor plants can boost your mood.",
-        "Some plants need misting.",
-        "Plants can be grown in various containers."
+        ''
       ],
     },
   ];
 
-  static List columnDataCarousel = [
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/16/fd/fc/16fdfcf26ffc47c834a1f9c2dbed63a6.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/8159657/pexels-photo-8159657.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=170.625&fit=crop&h=276.25',
-      'profileName': 'Oliver',
-      'followers': '90 followers',
-      'd_description': "Clay art is a versatile medium.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/0b/10/a8/0b10a8cda48d921fcf1d3352a8c1218d.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/10757699/pexels-photo-10757699.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Emma',
-      'followers': '23 followers',
-      'd_description': "It allows for creative expression.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/70/5b/96/705b96cc05f8ff4400daef3d3e36ea18.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/24235269/pexels-photo-24235269/free-photo-of-photo-of-a-young-woman-holding-her-hair-up.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Liam',
-      'followers': '250 followers',
-      'd_description': "You can mold it into any shape.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/d0/63/26/d06326365935dee9dfbf06e6381b2283.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/24260386/pexels-photo-24260386/free-photo-of-black-and-white-photo-of-a-young-man-standing-outside.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Sophia',
-      'followers': '467 followers',
-      'd_description': "It is often used in pottery.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/1e/5c/87/1e5c87d7c02f102a56863725e6884672.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/24185772/pexels-photo-24185772/free-photo-of-portrait-of-brunette-woman-in-a-studio.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Noah',
-      'followers': '234 followers',
-      'd_description': "Clay art can be painted.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/f8/ca/0f/f8ca0f3409b99d44829408ee62559222.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/24181535/pexels-photo-24181535/free-photo-of-man-in-shirt-and-patterned-waistcoat.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Ava',
-      'followers': '9876 followers',
-      'd_description': "It requires patience and skill."
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/15/70/8b/15708b056749dcc140adbf4cb2871e6d.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/23995223/pexels-photo-23995223/free-photo-of-attractive-woman-sitting-on-a-chair-against-white-background.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Oliver',
-      'followers': '123 followers',
-      'd_description': "Craft bags are perfect for DIY projects.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/b6/10/bc/b610bcf902a9daea0ac923c73f13069a.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/23931918/pexels-photo-23931918/free-photo-of-closeup-of-brunette-person-face-with-smoke.png?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Emma',
-      'followers': '7654 followers',
-      'd_description': "They come in various sizes and colors.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/7c/14/13/7c1413ff0e224bf00c32bcef85e1f9f6.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/23945347/pexels-photo-23945347/free-photo-of-portrait-of-woman-wearing-a-hat.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Liam',
-      'followers': '765 followers',
-      'd_description': "You can decorate them with paint.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/63/18/67/631867b966c6e4f414e2b5da8c38204d.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/23939543/pexels-photo-23939543/free-photo-of-side-view-of-young-woman-fixing-her-hair.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Sophia',
-      'followers': '123 followers',
-      'd_description': "They are great for gift wrapping.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/3a/f5/4e/3af54ef92fcf957dab8e2270b439230f.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Noah',
-      'followers': '987 followers',
-      'd_description': "Craft bags are reusable.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/24/f0/6d/24f06dece4bac1196028b6013d53c523.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Ethan',
-      'followers': '23 followers',
-      'd_description': "They are made from different materials."
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/4f/78/a2/4f78a2ac80a385cc2c40e2d633439df7.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Isabella',
-      'followers': '765 followers',
-      'd_description': "Paintings capture emotions and stories.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/57/39/fc/5739fc0fde77a7f1e90fc93aa252c035.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/22814807/pexels-photo-22814807/free-photo-of-blonde-woman-posing-in-pink-dress.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Mason',
-      'followers': '34 followers',
-      'd_description': "They come in various styles and techniques.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/64/bb/e3/64bbe36b1c2d5222f5294ab21d87b964.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Mia',
-      'followers': '98 followers',
-      'd_description': "Colors play a significant role in paintings.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/5d/1b/3e/5d1b3e2ea9556a73cac40493655fe647.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/2709388/pexels-photo-2709388.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Lucas',
-      'followers': '23 followers',
-      'd_description': "Abstract art can be open to interpretation.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/3f/d3/9f/3fd39fdfec2955e40498061cdb500f3b.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Amelia',
-      'followers': '98 followers',
-      'd_description': "Portraits focus on capturing likeness.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/47/aa/95/47aa95a870691f2d0aa90f1ba95748b8.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1572878/pexels-photo-1572878.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Logan',
-      'followers': '567 followers',
-      'd_description': "Landscapes often depict natural beauty."
-    },
+  // static List columnDataCarousel = [
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/16/fd/fc/16fdfcf26ffc47c834a1f9c2dbed63a6.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/8159657/pexels-photo-8159657.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=170.625&fit=crop&h=276.25',
+  //     'profileName': 'Oliver',
+  //     'followers': '90 followers',
+  //     'd_description': "Clay art is a versatile medium.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/0b/10/a8/0b10a8cda48d921fcf1d3352a8c1218d.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/10757699/pexels-photo-10757699.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Emma',
+  //     'followers': '23 followers',
+  //     'd_description': "It allows for creative expression.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/70/5b/96/705b96cc05f8ff4400daef3d3e36ea18.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/24235269/pexels-photo-24235269/free-photo-of-photo-of-a-young-woman-holding-her-hair-up.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Liam',
+  //     'followers': '250 followers',
+  //     'd_description': "You can mold it into any shape.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/d0/63/26/d06326365935dee9dfbf06e6381b2283.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/24260386/pexels-photo-24260386/free-photo-of-black-and-white-photo-of-a-young-man-standing-outside.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Sophia',
+  //     'followers': '467 followers',
+  //     'd_description': "It is often used in pottery.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/1e/5c/87/1e5c87d7c02f102a56863725e6884672.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/24185772/pexels-photo-24185772/free-photo-of-portrait-of-brunette-woman-in-a-studio.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Noah',
+  //     'followers': '234 followers',
+  //     'd_description': "Clay art can be painted.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/f8/ca/0f/f8ca0f3409b99d44829408ee62559222.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/24181535/pexels-photo-24181535/free-photo-of-man-in-shirt-and-patterned-waistcoat.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Ava',
+  //     'followers': '9876 followers',
+  //     'd_description': "It requires patience and skill."
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/15/70/8b/15708b056749dcc140adbf4cb2871e6d.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/23995223/pexels-photo-23995223/free-photo-of-attractive-woman-sitting-on-a-chair-against-white-background.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Oliver',
+  //     'followers': '123 followers',
+  //     'd_description': "Craft bags are perfect for DIY projects.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/b6/10/bc/b610bcf902a9daea0ac923c73f13069a.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/23931918/pexels-photo-23931918/free-photo-of-closeup-of-brunette-person-face-with-smoke.png?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Emma',
+  //     'followers': '7654 followers',
+  //     'd_description': "They come in various sizes and colors.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/7c/14/13/7c1413ff0e224bf00c32bcef85e1f9f6.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/23945347/pexels-photo-23945347/free-photo-of-portrait-of-woman-wearing-a-hat.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Liam',
+  //     'followers': '765 followers',
+  //     'd_description': "You can decorate them with paint.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/63/18/67/631867b966c6e4f414e2b5da8c38204d.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/23939543/pexels-photo-23939543/free-photo-of-side-view-of-young-woman-fixing-her-hair.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Sophia',
+  //     'followers': '123 followers',
+  //     'd_description': "They are great for gift wrapping.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/3a/f5/4e/3af54ef92fcf957dab8e2270b439230f.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Noah',
+  //     'followers': '987 followers',
+  //     'd_description': "Craft bags are reusable.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/24/f0/6d/24f06dece4bac1196028b6013d53c523.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Ethan',
+  //     'followers': '23 followers',
+  //     'd_description': "They are made from different materials."
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/4f/78/a2/4f78a2ac80a385cc2c40e2d633439df7.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Isabella',
+  //     'followers': '765 followers',
+  //     'd_description': "Paintings capture emotions and stories.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/57/39/fc/5739fc0fde77a7f1e90fc93aa252c035.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/22814807/pexels-photo-22814807/free-photo-of-blonde-woman-posing-in-pink-dress.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Mason',
+  //     'followers': '34 followers',
+  //     'd_description': "They come in various styles and techniques.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/64/bb/e3/64bbe36b1c2d5222f5294ab21d87b964.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Mia',
+  //     'followers': '98 followers',
+  //     'd_description': "Colors play a significant role in paintings.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/5d/1b/3e/5d1b3e2ea9556a73cac40493655fe647.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/2709388/pexels-photo-2709388.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Lucas',
+  //     'followers': '23 followers',
+  //     'd_description': "Abstract art can be open to interpretation.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/3f/d3/9f/3fd39fdfec2955e40498061cdb500f3b.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Amelia',
+  //     'followers': '98 followers',
+  //     'd_description': "Portraits focus on capturing likeness.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/47/aa/95/47aa95a870691f2d0aa90f1ba95748b8.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1572878/pexels-photo-1572878.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Logan',
+  //     'followers': '567 followers',
+  //     'd_description': "Landscapes often depict natural beauty."
+  //   },
 
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/27/48/e1/2748e1f6c32045729d737314c0e464db.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Jacob',
-      'followers': '456 followers',
-      'd_description': "Cute painting art features adorable characters.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/21/16/5a/21165a0aef64552dd65ed8e9c7c83b17.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/12244376/pexels-photo-12244376.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Emily',
-      'followers': '65 followers',
-      'd_description': "Bright colors enhance the charm.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/4f/d9/ef/4fd9ef6497e4d0a175fcebe74315951b.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/4029925/pexels-photo-4029925.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Alexander',
-      'followers': '876 followers',
-      'd_description': "Simple designs are easy to create.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/5b/63/54/5b63547ab4ec389ccd8bc3a9358dadaa.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Scarlett',
-      'followers': '987 followers',
-      'd_description': "Animals and cartoon styles are popular.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/49/ac/d3/49acd3d17d2be8c2d1ba1db9797e13b4.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Daniel',
-      'followers': '123 followers',
-      'd_description': "Cute art makes great decorations."
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/17/52/28/17522874f1c3324cc46d67a6b79ec668.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Charlotte',
-      'followers': '765 followers',
-      'd_description': "Cute clay art includes mini sculptures.",
-    },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/27/48/e1/2748e1f6c32045729d737314c0e464db.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Jacob',
+  //     'followers': '456 followers',
+  //     'd_description': "Cute painting art features adorable characters.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/21/16/5a/21165a0aef64552dd65ed8e9c7c83b17.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/12244376/pexels-photo-12244376.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Emily',
+  //     'followers': '65 followers',
+  //     'd_description': "Bright colors enhance the charm.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/4f/d9/ef/4fd9ef6497e4d0a175fcebe74315951b.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/4029925/pexels-photo-4029925.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Alexander',
+  //     'followers': '876 followers',
+  //     'd_description': "Simple designs are easy to create.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/5b/63/54/5b63547ab4ec389ccd8bc3a9358dadaa.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Scarlett',
+  //     'followers': '987 followers',
+  //     'd_description': "Animals and cartoon styles are popular.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/49/ac/d3/49acd3d17d2be8c2d1ba1db9797e13b4.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Daniel',
+  //     'followers': '123 followers',
+  //     'd_description': "Cute art makes great decorations."
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/17/52/28/17522874f1c3324cc46d67a6b79ec668.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Charlotte',
+  //     'followers': '765 followers',
+  //     'd_description': "Cute clay art includes mini sculptures.",
+  //   },
 
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/25/00/e4/2500e4f8314284ced3dc21f882e45e67.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/26584711/pexels-photo-26584711/free-photo-of-portrait-of-woman-on-a-balcony-at-night.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Elijah',
-      'followers': '2345 followers',
-      'd_description': "Tiny animals are popular choices.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/c1/4b/18/c14b18852e9a55600bf2d1ca8d8243ec.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Harper',
-      'followers': '98 followers',
-      'd_description': "Bright colors make them appealing.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/a9/2d/17/a92d175e14ca94712cc373e7d42320ab.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'James',
-      'followers': '345 followers',
-      'd_description': "They are often used as charms.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/a4/39/eb/a439eb82a0baf8a29340e68bd30e72ca.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Evelyn',
-      'followers': '234 followers',
-      'd_description': "Kids love making cute clay art.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/0f/07/46/0f0746defdaf22aafe6a3d32ac7a6af3.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/13069698/pexels-photo-13069698.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Benjamin',
-      'followers': '098 followers',
-      'd_description': "It can be turned into jewelry.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/25/67/c7/2567c79f3e5c7a2df6c331e071001d3d.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/13069698/pexels-photo-13069698.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Benjamin',
-      'followers': '098 followers',
-      'd_description': "Cute clay art makes great gifts.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/1e/3d/3d/1e3d3daf28773b7547f40368bd3c7cb8.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1821095/pexels-photo-1821095.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Noah',
-      'followers': '3456 followers',
-      'd_description': "Simple designs are often the best."
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/23/d8/19/23d8194d395c0385acc9a60558e2130d.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1559193/pexels-photo-1559193.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Madison',
-      'followers': '234 followers',
-      'd_description': "Indoor plants improve air quality.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/9f/be/0c/9fbe0cd6c1335ad0a3a3a9d1aed03ef3.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/7173047/pexels-photo-7173047.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Henry',
-      'followers': '65 followers',
-      'd_description': "They add a touch of nature to your home.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/70/3e/9c/703e9c1d17c60c3343d8495957d5dd74.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1036620/pexels-photo-1036620.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Aria',
-      'followers': '987 followers',
-      'd_description': "Succulents are easy to care for.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/9d/e8/2f/9de82f08e7b79c919d3f1a9a40b39768.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/4946515/pexels-photo-4946515.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Matthew',
-      'followers': '5 followers',
-      'd_description': "Ferns thrive in low light.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/e8/e1/7a/e8e17aecbb6125a0a3491ad961827b2a.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1441151/pexels-photo-1441151.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Grace',
-      'followers': '987 followers',
-      'd_description': "Indoor plants can boost your mood.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/aa/6f/c4/aa6fc424222d40d4d0deddf7d53cee8d.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'Harper',
-      'followers': '8 followers',
-      'd_description': "Some plants need misting.",
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/7a/25/59/7a255972445ab83290a60e1f29a9f236.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'James',
-      'followers': '234 followers',
-      'd_description': "Plants can be grown in various containers."
-    },
-    {
-      'image_url':
-          'https://i.pinimg.com/474x/7a/25/59/7a255972445ab83290a60e1f29a9f236.jpg',
-      'profilePic':
-          'https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=400',
-      'profileName': 'James',
-      'followers': '234 followers',
-      'd_description': "Plants can be grown in various containers."
-    },
-    // {
-    //   'image_url':
-    //   'profilePic':
-    //   'profileName':
-    //    'followers':
-    //     'd_description':
-    // },
-  ];
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/25/00/e4/2500e4f8314284ced3dc21f882e45e67.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/26584711/pexels-photo-26584711/free-photo-of-portrait-of-woman-on-a-balcony-at-night.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Elijah',
+  //     'followers': '2345 followers',
+  //     'd_description': "Tiny animals are popular choices.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/c1/4b/18/c14b18852e9a55600bf2d1ca8d8243ec.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Harper',
+  //     'followers': '98 followers',
+  //     'd_description': "Bright colors make them appealing.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/a9/2d/17/a92d175e14ca94712cc373e7d42320ab.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'James',
+  //     'followers': '345 followers',
+  //     'd_description': "They are often used as charms.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/a4/39/eb/a439eb82a0baf8a29340e68bd30e72ca.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Evelyn',
+  //     'followers': '234 followers',
+  //     'd_description': "Kids love making cute clay art.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/0f/07/46/0f0746defdaf22aafe6a3d32ac7a6af3.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/13069698/pexels-photo-13069698.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Benjamin',
+  //     'followers': '098 followers',
+  //     'd_description': "It can be turned into jewelry.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/25/67/c7/2567c79f3e5c7a2df6c331e071001d3d.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/13069698/pexels-photo-13069698.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Benjamin',
+  //     'followers': '098 followers',
+  //     'd_description': "Cute clay art makes great gifts.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/1e/3d/3d/1e3d3daf28773b7547f40368bd3c7cb8.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1821095/pexels-photo-1821095.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Noah',
+  //     'followers': '3456 followers',
+  //     'd_description': "Simple designs are often the best."
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/23/d8/19/23d8194d395c0385acc9a60558e2130d.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1559193/pexels-photo-1559193.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Madison',
+  //     'followers': '234 followers',
+  //     'd_description': "Indoor plants improve air quality.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/9f/be/0c/9fbe0cd6c1335ad0a3a3a9d1aed03ef3.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/7173047/pexels-photo-7173047.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Henry',
+  //     'followers': '65 followers',
+  //     'd_description': "They add a touch of nature to your home.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/70/3e/9c/703e9c1d17c60c3343d8495957d5dd74.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1036620/pexels-photo-1036620.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Aria',
+  //     'followers': '987 followers',
+  //     'd_description': "Succulents are easy to care for.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/9d/e8/2f/9de82f08e7b79c919d3f1a9a40b39768.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/4946515/pexels-photo-4946515.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Matthew',
+  //     'followers': '5 followers',
+  //     'd_description': "Ferns thrive in low light.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/e8/e1/7a/e8e17aecbb6125a0a3491ad961827b2a.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1441151/pexels-photo-1441151.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Grace',
+  //     'followers': '987 followers',
+  //     'd_description': "Indoor plants can boost your mood.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/aa/6f/c4/aa6fc424222d40d4d0deddf7d53cee8d.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'Harper',
+  //     'followers': '8 followers',
+  //     'd_description': "Some plants need misting.",
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/7a/25/59/7a255972445ab83290a60e1f29a9f236.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'James',
+  //     'followers': '234 followers',
+  //     'd_description': "Plants can be grown in various containers."
+  //   },
+  //   {
+  //     'image_url':
+  //         'https://i.pinimg.com/474x/7a/25/59/7a255972445ab83290a60e1f29a9f236.jpg',
+  //     'profilePic':
+  //         'https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //     'profileName': 'James',
+  //     'followers': '234 followers',
+  //     'd_description': "Plants can be grown in various containers."
+  //   },
+  //   // {
+  //   //   'image_url':
+  //   //   'profilePic':
+  //   //   'profileName':
+  //   //    'followers':
+  //   //     'd_description':
+  //   // },
+  // ];
   static List pinnedPics = [
     'https://i.pinimg.com/564x/32/cb/2f/32cb2f18229be0dbc71e5c4331f13908.jpg',
     'https://i.pinimg.com/474x/fd/35/d2/fd35d24c172c08a271888a9fbead2ddc.jpg',
@@ -1129,9 +1075,9 @@ class Dummydb {
     'https://i.pinimg.com/474x/27/c5/c0/27c5c07fddf10de18575f8d69c58b5aa.jpg',
   ];
 
-  static List videoList = [
-    VideoConstants.video1,VideoConstants.video2
-  ];
+  // static List videoList = [
+  //   VideoConstants.video1,VideoConstants.video2
+  // ];
 }
 
 String? storegmail;
