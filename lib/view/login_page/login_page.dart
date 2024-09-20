@@ -86,14 +86,7 @@ class LoginPage extends StatelessWidget {
               ),
               Form(
                 key: emailkey,
-                // child: InkWell(
-                //   onDoubleTap: () {
-                //     if (emailkey.currentState!.validate()) {
-                //       print('validated');
-                //     } else {
-                //       print('Failed to validate');
-                //     }
-                // },
+                
                 child: TextFormField(
                   style:
                       TextStyle(color: ColorConstants.BlackMain, fontSize: 25),
@@ -126,14 +119,7 @@ class LoginPage extends StatelessWidget {
               ),
               Form(
                   key: passwordkey,
-                  // child: InkWell(
-                  //     onDoubleTap: () {
-                  //       if (passwordkey.currentState!.validate()) {
-                  //         print("Validated");
-                  //       } else {
-                  //         print("Failed to Validate");
-                  //       }
-                  //     },
+                  
                   child: TextFormField(
                     style: TextStyle(
                         color: ColorConstants.BlackMain, fontSize: 25),
